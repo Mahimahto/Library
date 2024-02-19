@@ -1,0 +1,42 @@
+
+.form{
+    visibility: hidden;
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    box-shadow: 4px 5px;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    z-index: 100%;
+}
+
+
+header{
+    height: 100px;
+    background-color:lightgray;
+}
+*{
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#btndiv{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    display: block;
+}
